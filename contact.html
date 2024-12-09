@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Videograph Template">
+    <meta name="keywords" content="Videograph, unica, creative, html">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>LV Motion | İletişim</title>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Css Styles -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css">
+    <link rel="stylesheet" href="css/elegant-icons.css" type="text/css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css" type="text/css">
+    <link rel="stylesheet" href="css/magnific-popup.css" type="text/css">
+    <link rel="stylesheet" href="css/slicknav.min.css" type="text/css">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+</head>
+
+<body>
+    <!-- Page Preloder -->
+    <div id="preloder">
+        <div class="loader"></div>
+    </div>
+
+  <!-- Header Section Begin -->
+  <header class="header">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-2">
+                <div class="header__logo">
+                    <a href="./index.html"><img src="img/logo.png" alt=""></a>
+                </div>
+            </div>
+            <div class="col-lg-10">
+                <div class="header__nav__option">
+                    <nav class="header__nav__menu mobile-menu">
+                        <ul>
+                            <li><a href="./index.html">Ana Sayfa</a></li>
+                            <li><a href="duyurugenel.html">Duyurular</a></li>
+                            <li><a href="about.html">Hakkımızda</a>
+                            </li>
+                            <li><a href="./misyonvizyon.html">Misyon-Vizyon</a></li>
+                            <li><a href="#">Ekipmanlarımız</a>
+                            <ul class="dropdown">
+                                <li><a href="./ekipman.html">Çekim Ekipmanları</a></li>
+                                <li><a href="./produksiyon.html">Prodüksiyon Tasarımı</a></li>
+                            </ul>
+                            </li>
+                            <li><a href="./services.html">Hizmetlerimiz</a>
+                            <ul class="dropdown">
+                                <li><a href="./reklam.html">Reklamcılık</a></li>
+                                <li><a href="./film.html">Filmografi</a></li>
+                                <li><a href="./sosyal.html">Sosyal Medya</a></li>
+                                <li><a href="./services.html">Diğer</a></li>
+                            </ul>
+                            </li>
+                            <li class = "active"><a href="./contact.html">İletişim</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+        <div id="mobile-menu-wrap"></div>
+    </div>
+</header>
+<!-- Header End -->
+
+
+    <!-- Breadcrumb Begin -->
+    <div class="breadcrumb-option spad set-bg" data-setbg="img/breadcrumb-bg.jpg">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <div class="breadcrumb__text">
+                        <h2>Bizimle İletişime Geçin</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Breadcrumb End -->
+
+    <!-- Contact Widget Section Begin -->
+    <section class="contact-widget spad">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-md-6 col-md-3">
+                    <div class="contact__widget__item">
+                        <div class="contact__widget__item__icon">
+                            <i class="fa fa-map-marker"></i>
+                        </div>
+                        <div class="contact__widget__item__text">
+                            <h4>Adres</h4>
+                            <p>Gül Mah. No: 12 LV Motion Studio, Beşiktaş/İstanbul</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-md-6 col-md-3">
+                    <div class="contact__widget__item">
+                        <div class="contact__widget__item__icon">
+                            <i class="fa fa-phone"></i>
+                        </div>
+                        <div class="contact__widget__item__text">
+                            <h4>Telefon</h4>
+                            <p>+90 216 312 23 34<br>+90 216 312 78 90</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-md-6 col-md-3">
+                    <div class="contact__widget__item">
+                        <div class="contact__widget__item__icon">
+                            <i class="fa fa-envelope"></i>
+                        </div>
+                        <div class="contact__widget__item__text">
+                            <h4>E-mail</h4>
+                            <p>info@lvmotionvideo.com</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Contact Widget Section End -->
+
+    <!-- Call To Action Section Begin -->
+    <script>
+    function sendEmail() {
+        var name = document.getElementById('name').value;
+        var tel = document.getElementById('tel').value;
+        var konu = document.getElementById('konu').value;
+        var website = document.getElementById('website').value || "Belirtilmedi";
+        var message = document.getElementById('message').value;
+        var option = document.getElementById('option').value;
+
+        var optionText = option === "suggestion" ? "Öneri" : option === "complaint" ? "Şikayet" : "Başvuru";
+
+        var mailtoLink = `mailto:info@lvmotionvideo.com?subject=${konu}&body=Ad Soyad: ${name}%0D%0ATelefon: ${tel}%0D%0AWeb Sitesi: ${website}%0D%0AMesaj Türü: ${optionText}%0D%0AMesaj:%0D%0A${message}`;
+
+        window.location.href = mailtoLink;
+    }
+
+
+    </script>
+  <section class="contact spad">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 col-md-6">
+                <div class="contact__map">
+                    <br><br>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d48126.01083737207!2d28.98275729368279!3d41.07171011316455!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cab63f6f8193f1%3A0x36c864a929a1018c!2zQmXFn2lrdGHFny_EsHN0YW5idWw!5e0!3m2!1str!2str!4v1733517898010!5m2!1str!2str"
+                    height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6">
+                <div class="contact__form">
+                    <h3>Bizimle İletişime Geçin...</h3>
+                    <form id="contactForm">
+                        <select id="option" name="option">
+                            <option value="suggestion">Öneri</option>
+                            <option value="complaint">Şikayet</option>
+                            <option value="application">Başvuru</option>
+                        </select>
+                        <input type="text" placeholder="Ad Soyad" id="name">
+                        <input type="text" placeholder="Telefon Numaranız" id="tel">
+                        <input type="konu" placeholder="Konu" id="konu">
+                        <input type="url" placeholder="Bir marka için ise varsa web siteniz" id="website">
+                        <textarea placeholder="Mesajınız..." id="message"></textarea>
+                        <button type="button" class="site-btn" onclick="sendEmail()">Gönder</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    </section>
+    <!-- Call To Action Section End -->
+
+    <!-- Footer Section Begin -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__top">
+                <div class="row">
+                    <div class="col-lg-6 col-md-6">
+                        <div class="footer__top__logo">
+                            <a href="#"><img src="img/logo.png" alt=""></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6">
+                        <div class="footer__top__social">
+                            <a href="#"><i class="fa fa-facebook"></i></a>
+                            <a href="#"><i class="fa fa-twitter"></i></a>
+                            <a href="#"><i class="fa fa-instagram"></i></a>
+                            <a href="#"><i class="fa fa-youtube-play"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__option">
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 col-sm-6">
+                        <div class="footer__option__item">
+                            <h5>Hizmetlerimizden Yararlanın</h5>
+                            <p>Hikayelerinizin, hayallerinizin can suyu ve gücü olalım...</p>
+                            <a href="./services.html" class="read__more">Daha fazlası için tıklayın... <span class="arrow_right"></span></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-3 col-sm-3">
+                        <div class="footer__option__item">
+                            <h5>Kimiz Biz?</h5>
+                            <ul>
+                                <li><a href="./about.html">Hakkımızda</a></li>
+                                <li><a href="./misyonvizyon.html">Değerlerimiz</a></li>
+                                <li><a href="./istatistik.html">Sayısal Verilerimiz</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-3 col-sm-3">
+                        <div class="footer__option__item">
+                            <h5>Kariyerimiz</h5>
+                            <ul>
+                                <li><a href="./duyurugenel.html">Yeniliklerimiz</a></li>
+                                <li><a href="./ekipman.html">Favori Ekipmanlarımız</a></li>
+                                <li><a href="./produksiyon.html">Prodüksiyon Tasarımı</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-12">
+                        <div class="footer__option__item">
+                            <h5>Bizimle iletişime geçin...</h5>
+                            <p>Telefon: +90 216 312 23 34 • +90 216 312 78 90<br>
+                            Adres: Gül Mah. No: 12 LV Motion Studio, Beşiktaş/İstanbul<br>
+                            E-mail: info@lvmotionvideo.com</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__copyright">
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <p class="footer__copyright__text">Telif Hakkı &copy;
+                            <script>
+                                document.write(new Date().getFullYear());
+                            </script>
+                            Tüm hakları saklıdır. | Bu web sitesinin tasarımı
+                            Anıl Ceco tarafından yapılmıştır. Şablon sahibi, <i class="fa fa-heart-o"
+                            aria-hidden="true"></i> <a href="https://colorlib.com" target="_blank">Colorlib</a>
+                    </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer Section End -->
+
+    <!-- Js Plugins -->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/mixitup.min.js"></script>
+    <script src="js/masonry.pkgd.min.js"></script>
+    <script src="js/jquery.slicknav.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

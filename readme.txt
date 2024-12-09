@@ -1,8 +1,2 @@
-Thank you for using our template!
-
-For more awesome templates please visit https://colorlib.com/wp/templates/
-
-Copyright information for the template can't be altered/removed unless you purchase a license.
-More information about the license is available here: https://colorlib.com/wp/licence/
-
-Removing copyright information without the license will result in suspension of your hosting and/or domain name(s).
+Öncelikle proje konusu olarak videografi/filmografi ajansı  web sitesi tasarımı seçildi. Hem isterlere yönelik olması  açısından hem de responsive tasarıma uygunluk açısından gerekli uyarı ve yönlendirmeler dikkate alınarak en uygun  şablon seçilerek bu şablon üzerinden gerekli tasarımlar  sağlanmıştır. 
+Videografi ajansı, LV (Life Visual) Motion Studio ismini taşımaktadır. Tasarımda 4 adet hizmet eklemiş bulunmaktayım. Bu hizmetler sırasıyla filmografi (film çekimi veya film kalitesinde çekim hizmeti), reklamcılık (marka tanıtımı), sosyal medya içeriği (içerik üreticileri için hizmet) ve post prodüksiyon (video/film edit, montaj işlemleri) olarak tanımlanmaktadır. 
